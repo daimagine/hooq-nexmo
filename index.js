@@ -1,8 +1,5 @@
 'use strict';
 
-require('babel-polyfill');
-require('babel-core/register');
-
 const NEXMO_ENDPOINT = {
         host: 'https://rest.nexmo.com',
         sms: {

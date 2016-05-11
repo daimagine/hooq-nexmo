@@ -8,9 +8,6 @@ var _createClass = function () { function defineProperties(target, props) { for 
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
-require('babel-polyfill');
-require('babel-core/register');
-
 var NEXMO_ENDPOINT = {
     host: 'https://rest.nexmo.com',
     sms: {
